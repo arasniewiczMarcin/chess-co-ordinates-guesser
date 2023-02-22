@@ -1,0 +1,66 @@
+* {
+    background-color: #161512;
+    font-size: 30px;
+    color: #BABABA;
+    text-align: center;
+}
+
+.interface {
+    width: 1500px;
+    height: 816px;
+}
+
+.container {
+    display: flex;
+    gap: 25px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    gap: 50px;
+}
+
+.btn-start {
+    /*nie wiem*/
+    margin-top: 110%;
+
+    /*  */
+    background-color: #3692E7;
+    height: 60px;
+    color: white;
+    border: solid;
+    border-radius: 5px;
+    border-color: #3692E7;
+}
+
+.row-box {
+    height: 100%;
+    flex: 1;
+}
+
+.time,
+.timer,
+.score,
+.name,
+.field-to-find {
+    padding-top: 50px;
+    background-color: #262421;
+    flex: 1;
+}
+
+.col-box {
+    width: 100%;
+    flex: 1;
+    background-color: #262421
+}
+
+.board:hover,
+.btn-start:hover {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
